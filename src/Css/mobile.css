@@ -1,0 +1,311 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
+
+@media (max-width: 900px) {
+  .Header {
+    height: max-content;
+  }
+
+  .Logo {
+    width: 50px;
+    margin: 0px;
+  }
+
+  .Logo h3 {
+    font-size: 15px;
+  }
+
+  .HeaderIcon {
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Search {
+    display: none;
+  }
+
+  .Log {
+    width: 100px;
+  }
+
+  .NumAdd {
+    right: 20px;
+  }
+
+  .Log h6 {
+    display: none;
+    margin: 0;
+  }
+
+  .Mobile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .Menu {
+    margin: 25px 10px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .SearchM {
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+
+  .SearchM select {
+    padding: 10px;
+    width: 60px;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    display: none;
+  }
+
+  .SearchM input {
+    width: 85%;
+    height: 100%;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    margin: 0px 1px;
+  }
+
+  .SiconM {
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .MobileMenu {
+    display: flex;
+    width: 70%;
+    height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Nav {
+    height: 100%;
+    width: 100%;
+  }
+
+  .Nav ul li {
+    list-style-type: none;
+    margin: 25px 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }
+
+  .UlI li {
+    list-style-type: none;
+    margin: 25px 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }
+
+  .Micon {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+
+  .MenuDiv {
+    display: none;
+  }
+
+  .SliderDiv {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .TopContainer {
+    height: 50vh;
+    padding: 0px;
+  }
+
+  .SliderImg img {
+    width: 100%;
+    height: 45vh;
+  }
+
+  .Slid .slick-prev:before,
+  .Slid .slick-next:before {
+    display: none;
+  }
+
+  .Sliders {
+    width: 85%;
+  }
+
+  .Deliv {
+    height: max-content;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .DelivCon {
+    padding: 20px;
+  }
+
+  .DelivC {
+    height: max-content;
+  }
+
+  .MB {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ProductImgCart {
+    width: 80%;
+  }
+
+  .Total {
+    margin-left: 6px;
+  }
+
+  .CartPoprs {
+    height: max-content;
+  }
+
+  .CartHeader h2 {
+    font-size: 30px;
+  }
+
+  .Desk {
+    display: none;
+  }
+
+  .MobileQ {
+    display: flex;
+    text-align: center;
+  }
+
+  .BookingWrapper {
+    padding-top: 15px;
+  }
+
+  .BookingWrapperArticle {
+    flex-direction: column;
+  }
+
+  .BookingWrapperleft {
+    width: 100%;
+    padding: 0;
+  }
+
+  .BookingWrapperRight {
+    width: 100%;
+    padding: 0;
+  }
+
+  .BookingWrapperRightInfo_5_1 span {
+    font-size: 13px;
+  }
+
+  .BookingWrapperRightInfo_5_2 span {
+    font-size: 13px;
+  }
+
+  .BookingWrapperRightAgree label {
+    font-size: 11px;
+  }
+
+  .DetailsWrapperArticle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .DetailsWrapperArticle_2 {
+    height: 450px;
+    flex-direction: column;
+  }
+
+  .DetailsWrapperArticle_2Left {
+    width: 100%;
+    height: 35%;
+  }
+
+  .DetailsWrapperArticle_2Right {
+    width: 100%;
+    height: 60%;
+  }
+
+  .DetailsWrapperArticle_2Right_1 {
+    margin-bottom: 20px;
+  }
+
+  .DetailsWrapperArticle_2Right_1_In h3 {
+    font-size: 23px;
+    color: red;
+  }
+
+  .DetailsWrapperArticle_2Right_1_In h5 {
+    font-size: 17px;
+    margin-left: 10px;
+    text-decoration: line-through;
+  }
+
+  .DetailsWrapperArticle_2Right_1_In span {
+    font-size: 17px;
+    margin-left: 10px;
+    color: red;
+  }
+
+  .DetailsWrapperArticle_2Right_1_In h4 {
+    font-size: 16px;
+  }
+
+  .DetailsWrapperArticle_2Right_1_In p {
+    font-size: 16px;
+    color: green;
+    margin-left: 10px;
+  }
+
+  .DetailsWrapperArticle_2Right_1 h2 {
+    font-size: 15px;
+  }
+
+  .DetailsWrapperArticle_2Right_1 button {
+    width: 70%;
+    height: 70%;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .DetailsWrapperArticle_3 {
+    margin-top: -90px;
+  }
+
+  .ProductPageIn2_1 {
+    display: none;
+  }
+
+  .ProductPageIn2_2 {
+    width: 100%;
+  }
+
+  .CartigoriesProductCard {
+    width: 70%;
+  }
+
+  .Link {
+    text-decoration: none;
+    color: white;
+  }
+} */
